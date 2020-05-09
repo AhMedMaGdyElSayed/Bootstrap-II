@@ -1,0 +1,630 @@
+/* start global Styles */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 71px;
+    font-family: 'Open Sans', sans-serif;
+    height: 4000px;
+}
+/* end global */
+
+/* start navbar */
+.bg-dark{
+    background-color: #000 !important;
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand span{
+    color: orangered;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.scrolled{
+    background-color: rgba(0, 0, 0, 0);
+}
+/* end navbar */
+
+/* start header */
+header{
+    background: url('../images/header.jpg') no-repeat top center;
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+    color: #FFF;
+    overflow: hidden;
+}
+
+header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header .centering-vh{
+    margin-top: 25vh;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+header h1 ~ .lead{
+    font-size: 30px;
+}
+
+header p{
+    font-family: tahoma;
+    font-weight: 500;
+}
+
+header button{
+    background: transparent;
+    padding: 5px 10px;
+    border: 2px solid #FFF;
+    margin-top: 20px;
+    color: #FFF;
+}
+
+header form{
+    width: 80%;
+    background-color: #FFF;
+    border-radius: 10px;
+    color: #333;
+}
+
+header form h2{
+    font-size: 1.6em;
+    background-color: #F5F5F5;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+header form .form-control{
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #CCC;
+    width: 80%;
+    margin: 0 auto 10px;
+}
+
+header form input[type="submit"]{
+    background-color: orangered;
+    color: #FFF;
+    border: none;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}
+/* end header */
+
+/* start social */
+.social-media{
+    padding: 10px;
+    margin: 10px 15px;
+    background-color: #FFF;
+    box-shadow: -3px -5px 13px #CCC;
+}
+
+.social-media h4{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.social-media p{
+    color: #A1A1A1;
+}
+
+.social-media i{
+    color: #CCC;
+    margin: 20px 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.fa-facebook-f:hover{
+    color: #3b5998;
+}
+
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+
+.fa-google-plus-g:hover{
+    color: #dd4b39;
+}
+
+.fa-pinterest-p:hover{
+    color: #bd081c;
+}
+
+.fa-instagram:hover{
+    color: #833ab4;
+}
+
+.fa-stumbleupon:hover{
+    color: #eb4924;
+}
+
+.fa-rss:hover{
+    color: #f26522;
+}
+/* end social */
+
+/* start taps */
+.taps{
+    padding: 50px 0;
+    background-color: #F5F5F5;
+}
+
+.taps .tap-switch li{
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    border: 1px solid #FFF;
+    height: 110px;
+    line-height: 85px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.taps .tap-switch li.selected,
+.taps .tap-switch li:hover{
+    background-color: orangered;
+}
+
+.taps .taps-content{
+    margin-left: 60px;
+}
+
+.taps .taps-content div:not(.tap-one){
+    display: none;
+}
+
+.taps .taps-content h3{
+    font-weight: bold;
+    margin-top: 0;
+    letter-spacing: -2px;
+    margin-bottom: 60px ;
+}
+
+.taps .taps-content .lead{
+    line-height: 1.6;
+    font-size: 18px;
+    color: #7E7E7E;
+}
+
+.taps .taps-content .btn{
+    background-color: orangered;
+    color: #FFF;
+    margin-top: 27px;
+}
+/* end taps */
+
+/* start sublist */
+.sublist{
+    padding: 80px 0;
+}
+
+.sublist img{
+    margin-top: 60px;
+}
+
+.sublist h3{
+    font-weight: bold;
+}
+
+.sublist p{
+    color: #A1A1A1;
+    line-height: 1.6;
+}
+
+.sublist .list-icon{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.sublist .list-icon i{
+    width: 40px;
+    height: 40px;
+    line-height: 34px;
+    background-color: #FFF;
+    color: orangered;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    margin-top: 20px;
+    float: left;
+}
+
+.sublist .list-icon .text-info{
+    float: left;
+    width: calc(100% - 80px);
+    margin-left: 20px;
+}
+/* end sublist */
+
+/* start standard pic */
+.stand-pic{
+    padding: 80px 0;
+}
+
+.stand-pic h3{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.stand-pic p{
+    color: #A1A1A1;
+    line-height: 1.6;
+}
+/* end standard pic */
+
+/* start awesome section */
+.awesome{
+    padding: 80px 0;
+}
+
+.awesome h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.awesome p{
+    margin-bottom: 100px;
+    color: #777;
+}
+
+.awesome i{
+    color: #FF8B38;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border: 1px solid #FF8B38;
+    border-radius: 50%;
+}
+
+.awesome .feat{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.awesome .feat-info{
+    color: #777;
+}
+/* end awesome section */
+
+/* start pricing */
+.price-options{
+    padding: 80px 0;
+    background-color: #F5F5F5;
+}
+
+.price-options .price-head{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.price-options .price-desc{
+    margin-bottom: 100px;
+    color: #777;
+}
+
+.price-options .price-box{
+    background-color: #FFF;
+}
+
+.price-options .price-box .plan-head{
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.price-options .price-box .option{
+    background-color: #333;
+    padding: 10px 0 20px;
+    border-bottom: 5px solid orangered;
+}
+
+.price-options .price-box .option .price{
+     font-size: 70px;
+     color: #fff;
+     display: block;
+     font-weight: bold;
+}
+
+.price-options .price-box .option .price .USD{
+    font-size: 40px;
+}
+
+.price-options .price-box .option .period{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.price-options .price-box .conf li{
+    padding: 10px;
+    border-bottom: 1px solid #f5f5f5;
+    color: #8c8c8c;
+}
+
+.price-options .price-box .most-pop{
+    background-color: orangered;
+    color: #fff;
+    padding: 5px 10px 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-options .row .basic,
+.price-options .row .enterprice{
+    margin-top: 40px;
+}
+/* end pricing */
+
+/* start testimonials */
+.testimonials{
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.testimonials .tes-desc{
+    margin-bottom: 40px;
+}
+
+.testimonials .client-say{
+    background-color: #f5f5f5;
+    color: #8e8f93;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.testimonials .client-say:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 15px 15px;
+    border-color: #f5f5f5 transparent transparent;
+    position: absolute;
+    bottom: -28px;
+    left: 16px;
+}
+
+.testimonials .media{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.testimonials .media-body p{
+    color: #a9a9a9;
+}
+/* end testimonials */
+
+/* start stylish */
+.stylish{
+    background: url('../images/stylish.jpg') no-repeat top center;
+    background-size: 100% 100%;
+    min-height: 320px;
+    position: relative;
+    color: #FFF;
+}
+
+.stylish .sty-head{
+    font-size: 50px;
+}
+
+.stylish .sty-desc{
+    color: #A1A1A1;
+}
+
+.stylish .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 70px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.stylish .overlay .stylish-btn{
+    margin: 10px auto;
+    display: block;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.stylish .head-border-center::after{
+    background-color: #fff;
+}
+
+.stylish .container{
+    padding: 30px 0;
+}
+/* end stylish */
+
+/* start contact */
+.contact{
+    padding: 80px 0;
+}
+
+.contact .contact-head{
+    font-size: 50px;
+}
+
+.contact .contact-desc{
+    color: #A1A1A1;
+}
+
+.contact .contact-btn{
+    margin: 10px auto;
+    display: block;
+    padding: 10px 20px;
+    background: orangered;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"]{
+    margin-bottom: 10px;
+
+    border: none;
+    border-bottom: 1px solid rgb(221, 219, 219);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.contact form textarea{
+    height: 134px;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(221, 219, 219);
+}
+/* end contact */
+
+/* start footer */
+footer{
+    background-color: #000;
+    color: #eee;
+    padding: 20px;
+    font-size: 18px;
+}
+
+footer i{
+    transition: all 0.3s ease-in-out;
+}
+/* end footer */
+/* start my frame work */
+.main-color{
+    color: orangered;
+    font-weight: normal;
+}
+
+.h1{
+    font-size: 2em;
+}
+
+.head-border::after{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: orangered;
+    margin: 25px 0;
+}
+
+.head-border-center::after{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: orangered;
+    margin: 25px auto;
+}
+
+@media (max-width: 991px){
+    .text-center-xs{
+        text-align: center;
+    }
+
+    header{
+        height: 1050px;
+    }
+
+    header .pp{
+        text-align: center;
+    }
+
+    header button{
+        margin: auto;
+    }
+
+    .head-border::after {
+        content: '';
+        display: block;
+        width: 70px;
+        height: 3px;
+        background-color: orangered;
+        margin: 25px auto;
+    }
+
+    header .centering-vh{
+        margin-top: 100px;
+    }
+
+    header button{
+        margin: 20px 0;
+    }
+    .social-media{
+        text-align: center;
+    }
+    .taps .taps-content h3{
+        margin: 30px 0 20px;
+    }
+
+    .taps .taps-content button{
+        margin: 0 0 20px;
+    }
+    .sublist .list-icon i{
+        float: none !important;
+        margin: 10px 0 0 40px;
+    }
+    .sublist .list-icon .text-info{
+        float: none !important;
+        width: 100%;
+    }
+    .sublist .list-icon{
+        margin-right: 30px;
+    }
+    .price-options .price-box{
+        margin-bottom: 30px;
+    }
+    .testimonials .media{
+        margin-bottom: 30px;
+    }
+    .stylish .overlay{
+        padding: 30px 0;
+    }
+    .img{
+        max-width: 270px;
+    }
+    .tap-one,
+    .tap-tow,
+    .tap-three{
+        margin-right: 60px;
+    }
+}
+/* end my frame work */
